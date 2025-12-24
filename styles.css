@@ -1,53 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-
 body { 
-      font-family: "Montserrat", sans-serif;
-      color: rgb(107, 97, 143);
-      font-weight: 650;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(238, 238, 233);
 }
 
-.titulo_sticky {
-  position: sticky;
-  top: 0;
-  background-color: white;
+.contenedor { 
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
 }
 
-span { 
-    color: black;
-}
-
-p {
-    background-color: blanchedalmond;
-}
-
-.estilo {
-    font-size: larger;
-    color: rgb(0, 0, 0) !important;
-    position: relative;
-}
-
-.contenedor {
-    position: relative;
+.contenedor img {
+     max-width: 100%;
+    height: 150px;    
+    
 }
 
 .item {
-    position:relative;
-    left: 150px;
-    color: red
+    width: 150px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 5px black;
+    text-align: start;
+    justify-content: center;
 }
 
-#oro {
-    font-size: xx-large;
-    color: gold;
+#medio_picante {
+    flex-direction: column-reverse;
 }
 
-img {
-    width: 200px;
+.item_medio {
+    width: 150px;
+    flex-direction: column-reverse;
+    align-items: center;
 }
 
-.capa {
-  position: absolute;
-  top: 8px;
-  right: 8px;
+#el_fantasmin:hover {
+
+    background-color: rgb(41, 63, 63);
+    border: 10px rgb(59, 47, 71);
+    align-self: end;
 }
