@@ -14,7 +14,7 @@ body {
 /* Mi barra de navegacion */
 
 
-.navbar{
+.navbar {
   position: sticky;
   top: 0;
   z-index: 10;
@@ -33,12 +33,12 @@ body {
   letter-spacing: 0.5px;
 }
 
-.navlinks a{
+.navlinks a {
   color: #cef010;
   margin-left: 12px;
   font-size: 14px;
 }
-.navlinks a:hover{ 
+.navlinks a:hover { 
     text-decoration: underline; 
 }
 
@@ -50,13 +50,13 @@ body {
 
 
 
-.container{
+.container {
   max-width: 980px;
   margin: 0 auto;
   padding: 24px 16px 80px;
 }
 
-.hero{
+.hero {
   background: linear-gradient(135deg, rgba(103, 114, 255, 0.25), rgba(0,0,0,0));
   border: 1px solid rgba(255,255,255,0.10);
   border-radius: 14px;
@@ -79,9 +79,9 @@ body {
   padding: 18px;
   margin-top: 16px;
 }
-.tarjeta h2{ margin-top: 0; }
+.tarjeta h2 { margin-top: 0; }
 
-.ojo{
+.ojo {
   font-size: 10px;
 }
 
@@ -89,7 +89,7 @@ body {
     background-color: #4855488f;
 }
 
-.grid{
+.grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
@@ -102,12 +102,12 @@ body {
   padding: 10px;
 }
 
-.item h3{ 
+.item h3 { 
     margin: 0 0 8px; 
     font-family: cambria;
 }
 
-.tips{
+.tips {
   margin-top: 12px;
   padding: 10px;
   background: rgba(103,114,255,0.12);
@@ -122,7 +122,7 @@ body {
 
 /* Boton */
 
-.button{
+.button {
   display: inline-block;
   background: #2bcc2b;
   color: rgb(0, 0, 0);
@@ -144,7 +144,7 @@ body {
 
 
 /* footer */
-.footer{ 
+.footer { 
   border-top: 1px solid rgba(46, 22, 22, 0.08);
   padding: 18px 16px;
   text-align: center;
@@ -167,7 +167,7 @@ body {
 
 /* cookie */
 
-.cookie-banner{
+.cookie-banner {
   position: fixed;
   left: 16px;
   right: 16px;
@@ -183,7 +183,7 @@ body {
    z-index: 1000;
 }
 
-.cookie-banner p{
+.cookie-banner p {
   margin: 0;
   font-size: 14px;
   color: #cdd7ff;
