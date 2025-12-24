@@ -1,44 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meteoritos: lo más antiguo que llega del espacio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+  <!-- navbar -->
+
+  <header class="navbar">
+    <div class="logo">☄️Meteoritos 🪐🌎🌕</div>
+    <nav class="navlinks">
+      <a href="#que-es">Que es un meterorito</a>
+      <a href="#por-que">Acaso son tan antiguos</a>
+    </nav>
+  </header>
+
+  <!-- hero/contenido -->
+
+
+
+  <main class="contenedor">
+    <section class="hero">
+      <h1>El objeto mas antiguo llego del espacio</h1>
+      <p>
+        Los quijotescos buscadores de metoritos pueden ganar mucho mas dinero que los buscadores de oro, y probablemente mas que cualquier buscador de cualquier otra cosa 
+        de este mundo. Pero, porque los meteoritos son tan importantes para nosotros? que tiene mas? donde estan? Porque puede ser arriesgado tocar un meteorito?
+      </p>
+      <a class="button" href="#que-es">Empezar</a>
+    </section>
+
+    <section id="que-es" class="tarjeta">
+      <h2>Que es un meteorito?</h2>
+      <p>
+        Un meteorito es un fragmento de roca o metal que viene del espacio y logra sobrevivir su entrada a la atmosfera,
+        cayendo a la superficie de la Tierra.
+      </p>
+        <h3>Clasificaciones</h3>
+      <ul>
+        <li><b>Meteoroide:</b> el objeto en el espacio.</li>
+        <li><b>Meteoro:</b> el “destello” al entrar (estrella fugaz).</li>
+        <li><b>Meteorito:</b> lo que llega al suelo.</li>
+      </ul>
+    </section>
     
-    <h1>Capsaicina</h1>
-    
-    <p>El ser humano tambien tiene predileccion por el dolor cuando ingiere alimentos, se podria decir que es como si practicara sadomasoquismo gastronomico. 
-        Solo asi se explica que algunas culturas prueben picantes capaces de hacerte llorar por el escozor. Para medir hasta que punto un alimento es picante, 
-        el quimico estadounidense Wilbur Scoville concibio la biblia de los amantes del chile en 1912, las unidades de picor de Scoville.
-        Para resultar lo mas objetivo posible en la medicion, scoville creo una serie de disoluciones muy altas de la capsaicina, la sustancia responsable de que los pimientos piquen.
-        A continuacion dio a probar las disoluciones a cinco individuos. 
-        La disolucion con la que los desgustadores detectaban picor sirvio para construir la escala de Scoville.
-    </p>
+    <section id="por-que" class="tarjeta">
+      <h2>Por que se considera dentro de lo mas antiguo?</h2>
+      <p>
+        Muchos meteoritos se formaron hace aproximadamente <strong>4,560 millones de años</strong>,
+        cerca del nacimiento del Sistema Solar. Algunos casi no han cambiado desde entonces.
+      </p>
 
-    <h2> Escala de Scoville </h2>
+      <p class="ojo">
+        <em>Ojo: “meteoritos” en general, pero hay piezas especialmente antiguas como ciertas condritas.</em>
+      </p>
+    </section>
 
-    <h3>Mas picantes</h3>
 
-    <div class="contenedor">
-        <div class="item"><img src="Pepper.jpg" alt="Pepper 3,180,000">Pepper más picante - 3,180,000</div>
-        <div class="item"><img src="dragons-breath-chili-peppers_2.webp" alt="Dragon Breath">Dragon Breath's - 2,500,000 </div>
-        <div class="item"><img src="Carolina_Reaper_Pepper_Seeds_Collection_Image.webp" alt="Carolina Reaper ">Carolina Reaper - 2,300,000</div>
-        <div class="item"><img src="Trinidad_Scorpion.webp" alt="Trinidad Scrorpion">Trinidad Scrorpion - 2,000,000</div>
-        <div class="item" id="el_fantasmin"> <img src="ghost pepper.jpg" alt="Ghost pepper">Ghost Pepper - 1,041,427</div>
-    </div>
+    <section id="tipos" class="tarjeta">
+      <h2>Tipos principales de meteoritos y sus superficies</h2>
+      <div class="grid">
+            <div class="item">
+            <h3>Rocosos</h3>
+            <p>Los mas comunes. Suelen parecer piedras oscuras, con “costra” de fusion</p>
+            </div>
+            <div class="item">
+            <h3>Metálicos</h3>
+            <p>Ricos en hierro y niquel. Muy densos y atraen imanes con facilidad</p>
+            </div>
+            <div class="item">
+            <h3>Mixtos</h3>
+            <p>Combinan roca y metal (pallasitas, por ejemplo, con cristales)</p>
+            </div>
+      </div>
+    </section>
 
-    <h3>Igual de picantes pero ahora en columna</h3>
 
-    <div class="contenedor" id="medio_picante">
-        <div class="item_medio"><img src="Pepper.jpg" alt="Pepper 3,180,000">Pepper más picante - 3,180,000</div>
-        <div class="item_medio"><img src="dragons-breath-chili-peppers_2.webp" alt="Dragon Breath">Dragon Breath's - 2,500,000 </div>
-        <div class="item_medio"><img src="Carolina_Reaper_Pepper_Seeds_Collection_Image.webp" alt="Carolina Reaper ">Carolina Reaper - 2,300,000</div>
-        <div class="item_medio"><img src="Trinidad_Scorpion.webp" alt="Trinidad Scrorpion">Trinidad Scrorpion - 2,000,000</div>
-        <div class="item_medio" id="el_fantasmin"> <img src="ghost pepper.jpg" alt="Ghost pepper">Ghost Pepper - 1,041,427</div>
-    </div>
+    <section id="como" class="tarjeta">
+      <h2>Como se estudian?</h2>
+      <p>
+        Se analizan con microscopios, quimica y tecnicas como espectrometria para medir elementos e isotopos.
+        Eso ayuda a reconstruir su origen (asteroides, Luna, Marte, etc.).
+      </p>
+      <div class="tips">
+        <p><b>Tip rapido:</b> si encuentras “una piedra rara”, no la lijes ni la limpies agresivamente; mejor documenta y consulta a un experto</p>
+      </div>
+    </section>
+  </main>
 
+
+
+
+  <!-- footer -->
+
+
+
+
+
+  <footer class="footer">
+    <p>© 2025 Meteoritos - Pagina de fan de piedras espaciales</p>
+            <div class="footer-links">
+                        <a href="#">Privacidad</a>
+                        <a href="#">Terminos</a>
+                        <a href="#">Contactanos!</a>
+            </div>
+  </footer>
+
+
+  <!-- Cookie la galleta -->
+
+
+  <div id="cookieBanner" class="cookie-banner" >
+        <p>
+                Usamos cookies para mejorar tu experiencia. Al continuar, aceptas el uso de cookies.
+            <a href="#">Mas información</a>
+        </p>
+    <button id="acceptCookies" class="button small">Aceptar</button>
+  </div>
+
+  
 </body>
 </html>
