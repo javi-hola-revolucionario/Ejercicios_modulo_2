@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body { 
+      font-family: "Montserrat", sans-serif;
+      color: rgb(107, 97, 143);
+      font-weight: 650;
+}
+
+.titulo_sticky {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+span { 
+    color: black;
+}
+
+p {
+    background-color: blanchedalmond;
+}
+
+.estilo {
+    font-size: larger;
+    color: rgb(0, 0, 0) !important;
+    position: relative;
+}
+
+.contenedor {
+    position: relative;
+}
+
+.item {
+    position:relative;
+    left: 150px;
+    color: red
+}
+
+#oro {
+    font-size: xx-large;
+    color: gold;
+}
+
+img {
+    width: 200px;
+}
+
+.capa {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
