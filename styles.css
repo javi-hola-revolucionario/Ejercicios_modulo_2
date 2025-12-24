@@ -12,10 +12,24 @@
     background-color: blanchedalmond;
     padding: 20px;
     display: inline-block;
-    margin: 15px;
-    border: 4px solid gray;
+    margin: 25px;
+    border: 4px solid rgb(212, 14, 14);
 }
 
-#cajitas_img { 
+.contenedor_2{
     text-align: right;
+    padding: 100px;
+    
+}
+
+#cajitas_2 { 
+    
+    border: 3px black;
+    
+}
+
+img { 
+   width: 300px;
+   height: 350px;
+   border: 10px, dashed rgb(112, 190, 112);
 }
